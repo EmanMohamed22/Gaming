@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/sheet.css">
+</head>
+
+<body>
+  <span class="position-fixed bottom-0 end-0 m-3 z-3">
+    <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+ </span>
+<section class="Register">
+  <div class="container ">
+    <div class="image">
+        <img src="images/logo-sm (1).png" alt="">
+        <h2>Register To Game Over</h2>
+    </div>
+   
+    <form class="" id="register">
+      <div class="row">
+        
+        <div class="col-md-12">
+            <div class="form-data">
+              <input
+              id="email"
+                type="email"
+                placeholder="Email"
+                class="form-control"
+                id=""
+              />
+              <ul class="invalid-feedback alert alert-danger">
+                <li>Email Is Required</li>
+                <li>InValid Email Formate</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+     <div class="row">
+       
+        <div class="col-12">
+            <div class="form-data">
+              <input type="password" id="password" placeholder="Password" class="form-control" id="" />
+              <ul class="invalid-feedback alert alert-danger">
+                <li>Password Is Required</li>
+                <li>Minimum six numbers</li>
+              </ul>
+            </div>
+          </div>
+       
+        <div class="col-12">
+            <div >
+             <button class="form-control btn btn-light" type="submit" disabled id="btnLogin">Login</button>
+             <p id="error" class="text-center mt-2"></p>
+            </div>
+          </div>
+     </div>
+    </form>
+    <footer class="mt-5">
+        <p class="text-center small">
+           Not a member yet?
+           <a href="./register.html" class="link-secondary text-decoration-none" role="button"
+              >Create Account <i class="fa-solid fa-angle-right"></i
+           ></a>
+        </p>
+     </footer>
+  </div>
+</section>
+    <script src="./JS/jquery-3.6.3.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

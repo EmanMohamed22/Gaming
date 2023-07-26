@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <script src="./JS/guard.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/sheet.css">
+</head>
+
+<body >
+  <span class="position-fixed bottom-0 end-0 m-3 z-3">
+    <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+ </span>
+    <section id="games" class="">
+        <div class="header position-relative">
+          
+            <nav class="navbar navbar-expand-lg position-absolute  z-2 col-md-6 col-lg-9">
+              <div class="container rounded-5 p-3">
+                  <h5 class="text-uppercase text-white">
+                  
+                      Game Reviews
+                  </h5>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+                  <ul class="navbar-nav links menu">
+                    <li class="nav-item">
+                      <a class="nav-link text-white active" aria-current="page" href="#" data-category="mmorpg" >Mmorpg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" data-category="shooter">Shooter</a>
+                                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" data-category="sailing">Sailing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" data-category="permadeath">Permadeath</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" data-category="superhero">Superhero</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" data-category="pixel">Pixel</a>
+                  </li>
+                   
+                  </ul>
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                       <span role="button" class="nav-link logout-btn">LogOut</span>
+                    </li>
+                 </ul>
+                </div>
+              </div>
+            </nav>
+         
+        </div>
+       
+           
+
+    </section>
+   
+     <section class="mt-5">
+      <div class="container">
+        <div class="row g-5" id="gameData">
+         
+        </div>
+      </div>
+      <div class="loading d-none ">
+        <span class="loader"></span>
+      </div>
+      
+     </section>
+    <script src="./JS/jquery-3.6.3.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/home.js"></script>
+</body>
+
+</html>
